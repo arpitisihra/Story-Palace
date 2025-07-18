@@ -1,57 +1,237 @@
-{
-  "steps": [
-    {"id": 1, "text": "In a forgotten library, you discover a book wrapped in black cloth. It whispers your name.", "choices": [{"text": "Proceed", "next_step": 2}]},
-    {"id": 2, "text": "You unwrap it. The title reads: 'The Cursed City Palace of Jaipur'. Pages are blank—then they turn on their own.", "choices": [{"text": "Proceed", "next_step": 3}]},
-    {"id": 3, "text": "A voice whispers: 'You wanted to read about the empty palace... Let me take you there.' You float, sucked into darkness. You land in front of Mubarak Mahal. It's a moonlit night. The palace is empty.", "choices": [{"text": "Proceed", "next_step": 4}]},
-    {"id": 4, "text": "You hear footsteps echoing. A flicker of movement—spirits of old pehredaars.", "choices": [
-      {"text": "Run toward Sarvato Bhadra", "next_step": 5},
-      {"text": "Hide behind a pillar", "next_step": 6}
-    ]},
-    {"id": 5, "text": "You find shelter. The whispering grows louder.", "choices": [
-      {"text": "Whisper back to the voices", "next_step": 7},
-      {"text": "Ignore them and move silently", "next_step": 8}
-    ]},
-    {"id": 6, "text": "A pehredaar’s spirit finds you. Flying swords execute you instantly.", "choices": []},
-    {"id": 7, "text": "You hear a voice that says you made a mistake in Marwari and are hit by a flying mace. Darkness consumes you.", "choices": []},
-    {"id": 8, "text": "You cross the courtyard safely. Faint chanting draws you toward a glowing arch.", "choices": [
-      {"text": "Enter the arch", "next_step": 9},
-      {"text": "Circle around it", "next_step": 10}
-    ]},
-    {"id": 9, "text": "Inside, murals pulse with eerie life. A hooded spirit gestures silently.", "choices": [
-      {"text": "Follow it", "next_step": 11},
-      {"text": "Run away", "next_step": 12}
-    ]},
-    {"id": 10, "text": "An inscription reads: “Above the moon, beyond the fire — the mantra lies on Chandra’s spire.” “Speak it to awaken the sleeping gods.”", "choices": [{"text": "Proceed", "next_step": 13}]},
-    {"id": 11, "text": "It leads you to a stairway below. You descend into the darkness.", "choices": [{"text": "Proceed", "next_step": 14}]},
-    {"id": 12, "text": "A child's spirit blocks your path. It opens your skull with a giggle.", "choices": []},
-    {"id": 13, "text": "You find yourself in Rajendra Pol. Giant silver urns gleam in moonlight.", "choices": [
-      {"text": "Hide inside one", "next_step": 15},
-      {"text": "Run past them", "next_step": 16}
-    ]},
-    {"id": 14, "text": "Inside the urn, you find a lighter. You ignite it. Walls shimmer with hidden writing.", "choices": [{"text": "Proceed", "next_step": 17}]},
-    {"id": 15, "text": "You trip. Ghost dogs swarm and devour you.", "choices": []},
-    {"id": 16, "text": "The writing says: The mantra is etched atop Chandra Mahal. That alone can save you.", "choices": [{"text": "Proceed", "next_step": 18}]},
-    {"id": 17, "text": "You reach Pritam Chowk. Four gates stare at you.", "choices": [
-      {"text": "Choose the north gate", "next_step": 19},
-      {"text": "Choose the east gate", "next_step": 20}
-    ]},
-    {"id": 18, "text": "You fall into a deep stone chamber. You never hit the ground.", "choices": []},
-    {"id": 19, "text": "You enter a hall of paintings. The eyes begin to move.", "choices": [
-      {"text": "Stare back", "next_step": 21},
-      {"text": "Cover your eyes and walk forward", "next_step": 22}
-    ]},
-    {"id": 20, "text": "Paintings animate and needles shoot out, impaling your eyes. You scream into the dark.", "choices": []},
-    {"id": 21, "text": "A hidden door creaks open.", "choices": [{"text": "Proceed", "next_step": 23}]},
-    {"id": 22, "text": "You stumble into a spiral stairwell leading up.", "choices": [{"text": "Proceed", "next_step": 24}]},
-    {"id": 23, "text": "The door leads to Chandra Mahal. You're close now.", "choices": [{"text": "Proceed", "next_step": 25}]},
-    {"id": 24, "text": "Spirits swirl around. You bow down and ask to be forgiven.", "choices": [{"text": "Proceed", "next_step": 26}]},
-    {"id": 25, "text": "One spirit nods and fades. The others vanish. You ascend.", "choices": [{"text": "Proceed", "next_step": 27}]},
-    {"id": 26, "text": "You reach the top. The mantra glows on the wall.", "choices": [
-      {"text": "Chant it softly", "next_step": 28},
-      {"text": "Chant as fast as possible", "next_step": 29}
-    ]},
-    {"id": 27, "text": "The spirits rage at your haste. You are hurled into the void.", "choices": []},
-    {"id": 28, "text": "Light pours in. A door appears. You step out... back into the library. The book lies shut.", "choices": []},
-    {"id": 29, "text": "The palace trembles. But the door opens. You run out—free.", "choices": []}
-  ]
-}
+  {
+    "id": 1,
+    "text": "In a forgotten library, you discover a book wrapped in black cloth. It whispers your name.",
+    "options": [
+      { "text": "Proceed", "nextStep": 2 }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "You unwrap it. The title reads: 'The Cursed City Palace of Jaipur'. Pages are blank—then they turn on their own",
+    "options": [
+      { "text": "Proceed", "nextStep": 3 }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "A voice whispers: 'You wanted to the cursed palace. I'll take you there",
+    "options": [
+      { "text": "Proceed", "nextStep": 4 }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "You land at Mubarak Mahal under a moonlit sky. The palace is silent. You feel eyes watching.",
+    "options": [
+      { "text": "Investigate the building", "nextStep": 5 },
+      { "text": "Walk into the shadows behind you", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "You walk toward the Crafts Demonstration Area. Tools clang… but no one’s there. You hear whispers in Marwari.",
+    "options": [
+      { "text": "Step back slowly and cross to Sileh Khana", "nextStep": 6 },
+      { "text": "Whisper back to the voices", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 6,
+    "text": "You reach Sileh Khana. Weapons float and clash mid-air. Ghostly officers duel. One turns and stares at you.",
+    "options": [
+      { "text": "Run toward Diwan-i-Aam", "nextStep": 7 },
+      { "text": "Try to speak to the officer", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "You enter Diwan-i-Aam. The throne is empty, but footsteps surround you.",
+    "options": [
+      { "text": "Crawl behind the pillar and hide", "nextStep": 8 },
+      { "text": "Kneel and pretend to be a servant", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "The ghost of an English officer laughs from the throne. \"The Maharaja never left,\" he snarls.",
+    "options": [
+      { "text": "Run through the open corridor", "nextStep": 9 },
+      { "text": "Confront him", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "You’re near Rajendra Pol. The gates bleed. Two Silver Urns glimmer beside.",
+    "options": [
+      { "text": "Hide inside the urn", "nextStep": 10 },
+      { "text": "Run toward the open gallery", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Inside the urn, you find a lighter. You flick it on. An inscription reads:\n‘Above the moon, beyond the fire — the mantra lies on Chandra’s spire.’\n‘Speak it to awaken the sleeping gods.’",
+    "options": [
+      { "text": "Commit the mantra clue to memory", "nextStep": 11 },
+      { "text": "Burn the inscription", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "The palace shakes slightly. A chant echoes from afar.",
+    "options": [
+      { "text": "Whisper the chant softly", "nextStep": 12 },
+      { "text": "Try to mimic it loudly", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "You step out and find a cracked idol of Ganesh near the gate.",
+    "options": [
+      { "text": "Touch the idol gently", "nextStep": 13 },
+      { "text": "Try to pry off the gem in its forehead", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "You reach Ridhi Sidhi Pol. The arch pulses with strange red light.",
+    "options": [
+      { "text": "Walk through backwards", "nextStep": 14 },
+      { "text": "Sprint through forward", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "You reach Pritam Chowk — four season-painted doors. All slam shut, then one creaks open.",
+    "options": [
+      { "text": "Choose the blue winter door", "nextStep": 15 },
+      { "text": "Choose the red summer door", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "Inside is a mirror room. Your reflection doesn’t match you.",
+    "options": [
+      { "text": "Shatter the mirror", "nextStep": 16 },
+      { "text": "Touch your reflection", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "You fall through a hidden chute into a chamber of whispers.",
+    "options": [
+      { "text": "Chant 'Om Namah Shivaya' to calm them", "nextStep": 17 },
+      { "text": "Scream for help", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "The whispers vanish. A dead Marwari worker appears, holding out a key.",
+    "options": [
+      { "text": "Accept it respectfully", "nextStep": 18 },
+      { "text": "Grab it aggressively", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "You use the key on a locked room. Inside: a floating conch.",
+    "options": [
+      { "text": "Blow the conch", "nextStep": 19 },
+      { "text": "Smash it", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "A stairway appears leading up, carved into the wall.",
+    "options": [
+      { "text": "Light your way with the lighter", "nextStep": 20 },
+      { "text": "Walk in darkness", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "The walls are painted with war scenes. The eyes of painted soldiers move.",
+    "options": [
+      { "text": "Bow and walk humbly", "nextStep": 21 },
+      { "text": "Stare directly at the murals", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "You reach a small shrine with a half-burned diya.",
+    "options": [
+      { "text": "Light the diya", "nextStep": 22 },
+      { "text": "Blow out the diya", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "You ascend Chandra Mahal. The halls twist unnaturally.",
+    "options": [
+      { "text": "Mark your path with blood", "nextStep": 23 },
+      { "text": "Leave no markings", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "A royal woman glides past, humming a lullaby. She’s headless.",
+    "options": [
+      { "text": "Bow silently", "nextStep": 24 },
+      { "text": "Ask her name", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "A wall ahead is covered in Sanskrit — part of the mantra.",
+    "options": [
+      { "text": "Copy it onto your hand", "nextStep": 25 },
+      { "text": "Rip the fabric below it", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "The wind picks up violently. A voice says, 'Only the pure heart may pass.'",
+    "options": [
+      { "text": "Bow down and ask to be forgiven", "nextStep": 26 },
+      { "text": "Curse the voice back", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "A door blocks the rooftop. It requires a sacrifice.",
+    "options": [
+      { "text": "Offer a drop of your blood", "nextStep": 27 },
+      { "text": "Offer the lighter", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "You step onto the rooftop. The full moon shines. The final mantra is inscribed on a stone.",
+    "options": [
+      { "text": "Chant it aloud slowly", "nextStep": 28 },
+      { "text": "Chant as fast as possible", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "The spirits scream. The ground shakes. Light bursts from the sky.",
+    "options": [
+      { "text": "Keep chanting the mantra", "nextStep": 29 },
+      { "text": "Try to run away", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 29,
+    "text": "You rise into the sky. The vortex returns. Faces of the cursed reach for you.",
+    "options": [
+      { "text": "Fold hands and offer them peace", "nextStep": 30 },
+      { "text": "Kick them away", "nextStep": -1 }
+    ]
+  },
+  {
+    "id": 30,
+    "text": "You wake up in the library. The book is closed beside you. One drop of blood stains the page. You survived.",
+    "options": [
+      { "text": "Restart", "nextStep": 1 }
+    ]
+  }
+]
