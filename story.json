@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "text": "You're in an old library when you discover a book wrapped in black cloth. It calls to you. You unwrap it slowly, revealing a cover that reads, 'The Cursed City Palace of Jaipur.'",
+    "choices": [{"text": "Proceed", "nextStep": 2}]
+  },
+  {
+    "id": 2,
+    "text": "You open the book. The pages are blank. As you prepare to wrap it again, the pages flip on their own. One reads: 'You wanted to read about the empty City Palace? Let me take you there.'",
+    "choices": [{"text": "Proceed", "nextStep": 3}]
+  },
+  {
+    "id": 3,
+    "text": "A force lifts you into the air. You're sucked into the book and land with a thud at the City Palace's entrance, in front of Mubarak Mahal. It’s midnight. The full moon casts eerie shadows.",
+    "choices": [{"text": "Proceed", "nextStep": 4}]
+  },
+  {
+    "id": 4,
+    "text": "The air is heavy. You hear faint footsteps. Spirits of long-dead pehredaars begin patrolling. Their heads hang low, yet they sense your fear.",
+    "choices": [
+      {"text": "Hide behind the palace pillar", "nextStep": 5},
+      {"text": "Run toward the courtyard", "nextStep": 6}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "As you crouch behind the pillar, the spirits whisper in Marwari: 'Kon chhe tu?'",
+    "choices": [
+      {"text": "Whisper back to the voices", "nextStep": 7},
+      {"text": "Stay silent and hold your breath", "nextStep": 8}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "You dash across the courtyard. The silence breaks. A trap is triggered and flying swords appear.",
+    "choices": [
+      {"text": "Duck", "nextStep": 9},
+      {"text": "Freeze in place", "nextStep": "death"}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "You hear a voice that says you made a mistake in Marwari — then you’re struck by a flying mace.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 8,
+    "text": "The spirits pause... then pass. You survive. The path to Rajendra Pol lies ahead.",
+    "choices": [
+      {"text": "Move quietly toward Rajendra Pol", "nextStep": 10},
+      {"text": "Inspect a strange shadow near the gallery", "nextStep": 11}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "You dive and roll. A sword grazes your back but you survive. You're near Rajendra Pol now.",
+    "choices": [
+      {"text": "Enter through Rajendra Pol", "nextStep": 10},
+      {"text": "Circle around to the crafts area", "nextStep": 12}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Inside Rajendra Pol, two giant silver urns gleam. You hide inside one and find a lighter. You light it. Words glow on the urn's inner wall: 'Above the moon, beyond the fire — the mantra lies on Chandra’s spire. Speak it to awaken the sleeping gods.'",
+    "choices": [
+      {"text": "Memorize the mantra and exit", "nextStep": 13},
+      {"text": "Keep reading the glowing text", "nextStep": "death"}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "A small spirit child emerges. Her eyes gleam crimson.",
+    "choices": [
+      {"text": "Offer her your watch", "nextStep": 14},
+      {"text": "Back away slowly", "nextStep": 15}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "In the crafts demonstration area, ghostly weavers chant endlessly. One stops and looks at you.",
+    "choices": [
+      {"text": "Bow respectfully", "nextStep": 14},
+      {"text": "Interrupt their chant", "nextStep": "death"}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "The child's spirit tilts her head and vanishes. You feel a chill — then pain. Your skull is torn open. You scream.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 14,
+    "text": "You move forward and reach Pritam Chowk. The four seasonal doorways glow under the moonlight. One pulses gently.",
+    "choices": [
+      {"text": "Enter the glowing doorway", "nextStep": 16},
+      {"text": "Try all four doors rapidly", "nextStep": "death"}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "The child smiles, then fades into ash. The path clears. You reach Pritam Chowk.",
+    "choices": [
+      {"text": "Enter the glowing doorway", "nextStep": 16},
+      {"text": "Climb toward the upper levels", "nextStep": 17}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "You walk through the doorway. The corridor is dark and filled with whispers. Suddenly, a swarm of ghost dogs rush at you.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 17,
+    "text": "You reach a narrow stairway. Paintings line the walls. Some eyes seem to move.",
+    "choices": [
+      {"text": "Touch one of the paintings", "nextStep": 18},
+      {"text": "Ignore them and keep climbing", "nextStep": 19}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "The painting grabs your arm. You’re pulled in. Screams echo. You vanish forever.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 19,
+    "text": "You stumble on loose stones and fall into a deep chamber. You can’t climb out.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 20,
+    "text": "You reach the art gallery. The paintings start to bleed. One animates and drives hundreds of needles into your eyes.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 21,
+    "text": "You finally reach the base of Chandra Mahal. A spiral staircase leads up. You hear thunder even though the sky is clear.",
+    "choices": [
+      {"text": "Climb steadily", "nextStep": 22},
+      {"text": "Climb fast before anything stops you", "nextStep": 23}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "Each step echoes like a drumbeat. You feel watched. The mantra burns in your mind.",
+    "choices": [
+      {"text": "Recite the mantra silently", "nextStep": 24},
+      {"text": "Hurry and skip steps", "nextStep": 25}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "You trip. Your head slams against the wall. Darkness takes you.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 24,
+    "text": "You reach the top floor. A wall bears glowing Sanskrit text — the final mantra. A storm brews above.",
+    "choices": [
+      {"text": "Read the mantra aloud", "nextStep": 26},
+      {"text": "Bow down and ask to be forgiven", "nextStep": 27}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "You skip steps and slip. You hit your head and fall down the spiral stairwell. Your body is lost in darkness.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 26,
+    "text": "You chant the mantra. Light fills the room. A roar sounds from above. The ground shakes.",
+    "choices": [
+      {"text": "Chant louder", "nextStep": 28},
+      {"text": "Whisper it once more", "nextStep": 29}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "You bow and ask for forgiveness. Wind swirls. Time slows. You’re given a final chance.",
+    "choices": [
+      {"text": "Say the mantra clearly", "nextStep": 28},
+      {"text": "Chant as fast as possible", "nextStep": 30}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "The room glows gold. A portal opens. You leap in. You’re ejected back into the library — breathless, shaken, but alive.",
+    "choices": [{"text": "You survived", "nextStep": "end"}]
+  },
+  {
+    "id": 29,
+    "text": "The spirits are not satisfied with a whisper. You vanish in flame.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  },
+  {
+    "id": 30,
+    "text": "The rushed chant angers the gods. The book closes forever — with you still inside it.",
+    "choices": [{"text": "You died", "nextStep": "death"}]
+  }
+]
